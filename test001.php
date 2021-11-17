@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>1. Строка</title>
+
+    </head>
+<body>
 <?php
 // В переменной $a лежит текст новости. В переменной $link лежит ссылка на страницу с полным текстом этой новости.
 // Нужно в переменную $b записать сокращенный текст новости по правилам:
@@ -51,7 +59,12 @@ function cut_str($str,$link,$max_size=180,$encode='UTF-8',$str_dots=' ...') {
 }
 
 $link = 'https://yandex.ru';
-$str = 'fsdfwfwefwefwefwefwegwrgwefwefwef543345yetyewrtyerty45y ertyh rety rety45 ter wert ewrt ewr ter wefwge wer fgwe fwe fwe fw efger jglewk jrw rwer gwee ler ete wer krjglke wjrglk jewrlkgj';
+$str = 'fsdfwfwefwefwefwefwegwrgwefwefwef543345yetyewrtyerty45y ertyh rety rety45 ter wert ewrt ewr ter wefwge wer fgwe fwe fwe fw efger jglewk jrw rwer gwee ler ete wer krjglke wjrglk jewrlkgj ger egrerh rthre herty';
 $res = cut_str($str,$link);
-echo '<pre>' .$res . '<pre>' . PHP_EOL . 'String length:' . mb_strlen($res,'UTF-8');
+echo $str . '<hr>' . PHP_EOL . 'String length:' . mb_strlen($str,'UTF-8') . '<hr>' . PHP_EOL ;
+echo $link . '<hr>' . PHP_EOL;
+echo $res . '<hr>' . PHP_EOL . 'String length:' . mb_strlen($res,'UTF-8');
  
+?>
+</body>
+</html>
