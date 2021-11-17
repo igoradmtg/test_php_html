@@ -19,6 +19,7 @@ Test PHP HTML
 
 # Ответ на вопрос файл: test001.php
 
+![alt text](sample001.png "Example image")
 
 # 2. Веб-разработка
 
@@ -52,3 +53,5 @@ Test PHP HTML
 Пришлите ссылку на репозиторий с решением
 
 # Ответ на вопрос файл: test004.php
+
+![alt text](sample004.png "Example image")
